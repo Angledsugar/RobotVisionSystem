@@ -1,6 +1,8 @@
 # RobotVisionSystem
-<img src="robotvisionsystem/img/rvs0.png" width="360" height="270"/>
-<img src="robotvisionsystem/img/rvs1.png" width="360" height="270"/>  
+<p aligin="center">
+    <img src="robotvisionsystem/img/rvs0.png" width="360" height="270"/>
+    <img src="robotvisionsystem/img/rvs1.png" width="360" height="270"/>  
+</p>
 This project was produced for the purpose of designing the robot vision system and vision system at Hanyang University ERICA. The robot vision system is a machine vision system using a robot and is a high-speed/fixed-precision, real-time visual sensor system that performs various robot tasks. Using Xytron's Xycar-X model, we learn the robot vision system for autonomous vehicles.
 
 # Getting Started
