@@ -15,5 +15,5 @@ This project was produced for the purpose of designing the robot vision system a
 Please contact Github Issue or class assistant Chanyeok Choi(angledsugar@hanyang.ac.kr) if you have any problems with the installation of the lab.  
 
 # Author
-**Chanyeok Choi** 
-**Youngmoon Lee**
+**Chanyeok Choi**    
+**Youngmoon Lee***
