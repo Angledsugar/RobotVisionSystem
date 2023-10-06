@@ -55,8 +55,6 @@ class RobotVisionSystem(Node):
         cv2.imshow('img', self.image)
         cv2.waitKey(33)
     
-
-
 def main(args=None):
     rclpy.init(args=args)
 
@@ -69,7 +67,6 @@ def main(args=None):
     # when the garbage collector destroys the node object)
     rvs.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
