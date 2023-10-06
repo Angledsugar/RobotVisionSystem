@@ -1,0 +1,15 @@
+
+# Area Naming #####################################################
+
+UnknownCity="Unknown City" 
+UnknownSuburb="Somewhere In"
+
+# Error Messages ###########################################################
+
+NoMapServer="No map server available"
+
+BuildError1="Van destination count %d, require %d or more"
+BuildError2="Walk destination count %d, require %d or more" 
+BuildError3="Street destination count %d, require %d or more" 
+BuildError4="Low clearance bridge count %d, require %d or fewer"
+BuildError5="Steep road count %d, require %d or fewer"

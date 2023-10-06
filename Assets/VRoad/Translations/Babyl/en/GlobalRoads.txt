@@ -1,0 +1,9 @@
+
+# This file contains key=value pairs for visible strings
+# To support other languages, create a file of the same name in the appropriate subdirectory
+
+UnknownCity="Unknown City" 
+UnknownSuburb="Somewhere In"
+
+MenuResume="Resume"
+MenuExit="Exit"
