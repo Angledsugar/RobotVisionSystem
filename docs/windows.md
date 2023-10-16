@@ -14,6 +14,7 @@
 ## 2. Install [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
 ## 3. Robotvisionsystem Workspace
 ```bash
+# (WSL2)Terminal
 $ mkdir -p ~/rvs_ws/src
 $ cd ~/rvs_ws/src
 $ git clone -b main https://github.com/Angledsugar/RobotVisionSystem.git
@@ -28,17 +29,16 @@ $ source install/setup.bash
 ```
 ## 4. Run
 ```bash
-# Terminal 0
-$ cd ~/(install path)/Linux
-$ ./RVS.x86_64
+$ cd ~/(install path)/Windows
+$ ./RVS.exe
 ```
 ```bash
-# Terminal 1
+# (WSL2)Terminal 1
 $ ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=127.0.0.1 -p ROS_TCP_PORT:=10000
 ```
 
 ```bash
-# Terminal 2
+# (WSL2)Terminal 2
 $ ros2 run robotvisionsystem rvs
 ```
 
