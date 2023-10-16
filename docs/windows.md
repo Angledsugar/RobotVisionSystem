@@ -18,7 +18,7 @@
 $ mkdir -p ~/rvs_ws/src
 $ cd ~/rvs_ws/src
 $ git clone -b main https://github.com/Angledsugar/RobotVisionSystem.git
-$ git clone -b main-ros2 https://github.com/Angledsugar/RobotVisionSystem.git
+$ git clone -b main-ros2 https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
 $ mv ./RobotVisionSystem/robotvisionsystem ./
 $ mv ./RobotVisionSystem/robotvisionsystem_msgs ./
 $ rm -rf RobotVisionSystem
