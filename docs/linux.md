@@ -14,7 +14,7 @@
 ```bash
 $ mkdir -p ~/rvs_ws/src
 $ cd ~/rvs_ws/src
-$ git clone -b main https://github.com/Angledsugar/RobotVisionSystem.git
+$ git clone -b main --recursive https://github.com/Angledsugar/RobotVisionSystem.git
 
 $ cd ~/rvs_ws
 $ colcon build
