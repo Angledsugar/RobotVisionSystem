@@ -28,6 +28,7 @@ $ source install/setup.bash
 ```bash
 # Terminal 0
 $ cd ~/(install path)/Linux
+$ chmod +x ./RVS.x86_64
 $ ./RVS.x86_64
 ```
 ```bash

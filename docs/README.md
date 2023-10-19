@@ -10,6 +10,12 @@ This project was produced for the purpose of designing the robot vision system a
 # Getting Started
 ## Installation
 Click [here](https://github.com/Angledsugar/RobotVisionSystem/releases) to get started with the latest release of robotvisionsystem. And download the version for your operating system. Recommended OS is **Ubuntu 20.04**.
+
+<p align="center">
+    <img src="./img/releases.png" width="360" height="270" />
+    <img src="./img/releasesdownload.png" width="360" height="270" />
+</p>
+
 1. [Linux](./linux.md)
 2. [Windows](./windows.md)
 3. [Mac](./mac.md)
