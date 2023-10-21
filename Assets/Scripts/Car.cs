@@ -6,7 +6,7 @@ using UnityEngine;
 using Unity.Robotics.ROSTCPConnector;
 using Unity.Robotics.ROSTCPConnector.MessageGeneration;
 
-using RosMessageTypes.Rvs;
+using RosMessageTypes.Robotvisionsystem;
 using RosMessageTypes.Std;
 using RosMessageTypes.Sensor;
 using RosMessageTypes.BuiltinInterfaces;
@@ -22,7 +22,8 @@ public class Car : MonoBehaviour
     public string cartopic = "/car/state";
     public string carraytopic = "/car/sensor/ray";
     
-    public string frontimagetopic = "/car/camera/front";
+    public string frontimagetopic = "/car/sensor/camera/front";
+    public string carmotortopic = "/car/motor";
 
     public float publishMessageFrequency = 0.5f;
     private float timeElapsed;
@@ -61,6 +62,11 @@ public class Car : MonoBehaviour
     [SerializeField] private Transform rearLeftWheelTransform;
     [SerializeField] private Transform rearRightWheelTransform;
 
+    void Awake()
+    {
+        Application.targetFrameRate = 60;
+    }
+    
     void Start()
     {
         ros = ROSConnection.GetOrCreateInstance();
@@ -68,7 +74,7 @@ public class Car : MonoBehaviour
         ros.RegisterPublisher<RayMsg>(carraytopic);
         ros.RegisterPublisher<ImageMsg>(frontimagetopic);
 
-        ros.Subscribe<MotorMsg>("/car/motor", SubscribeControl);
+        ros.Subscribe<MotorMsg>(carmotortopic, SubscribeControl);
 
         initCarPosition = transform.position;
         initCarRotation = transform.rotation;
