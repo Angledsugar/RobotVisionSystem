@@ -197,7 +197,9 @@ public class Car : MonoBehaviour
        
         ImageMsg imageMsg = camText.ToImageMsg(new HeaderMsg());
         ros.Publish(topicName, imageMsg);
-        //camText.Dispose();
+
+        Destroy(RenderTexture);
+        Destroy(camText);
     }
 
     void PublishCarstate()
