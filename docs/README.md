@@ -44,6 +44,12 @@ def rvs(self):
 # Assignment
 ## Assignment 1
 If you control the robot right away in the real world, there are many problems. The cost of researching robots is high, but we don't know what problems will arise because the code we wrote doesn't work perfectly at once. To solve this problem, we create a Simulation environment and test the code.
+<p align="center">
+    <img src="./img/assignment1.png" width="360" height="270" />
+    <img src="./img/rvsmap.png" width="360" height="270" />
+</p>
+
+Implement **traffic light recognition**, **lane recognition**, and **stop line recognition** algorithms to programming that drives a free path. The path can be anywhere on the simulation map given to you!
 
 ## Assignment 2
 
