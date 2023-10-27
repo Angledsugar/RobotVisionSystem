@@ -20,7 +20,7 @@ $ mv ./RobotVisionSystem/robotvisionsystem_msgs ./
 $ rm -rf RobotVisionSystem
 
 $ cd ~/rvs_ws
-$ colcon build
+$ colcon build --symlink-install
 $ source install/setup.bash
 ```
 ## 3. Run
