@@ -1,0 +1,407 @@
+[0.000000] (-) TimerEvent: {}
+[0.000844] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001217] (robotvisionsystem) JobQueued: {'identifier': 'robotvisionsystem', 'dependencies': OrderedDict()}
+[0.001288] (robotvisionsystem_msgs) JobQueued: {'identifier': 'robotvisionsystem_msgs', 'dependencies': OrderedDict()}
+[0.001340] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.001419] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.010599] (robotvisionsystem) JobStarted: {'identifier': 'robotvisionsystem'}
+[0.016346] (robotvisionsystem_msgs) JobStarted: {'identifier': 'robotvisionsystem_msgs'}
+[0.021091] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.099786] (-) TimerEvent: {}
+[0.200138] (-) TimerEvent: {}
+[0.300509] (-) TimerEvent: {}
+[0.400907] (-) TimerEvent: {}
+[0.501346] (-) TimerEvent: {}
+[0.536012] (robotvisionsystem_msgs) JobProgress: {'identifier': 'robotvisionsystem_msgs', 'progress': 'cmake'}
+[0.536598] (robotvisionsystem_msgs) Command: {'cmd': ['/usr/bin/cmake', '/rvs_ws/src/robotvisionsystem_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/rvs_ws/install/robotvisionsystem_msgs'], 'cwd': '/rvs_ws/build/robotvisionsystem_msgs', 'env': OrderedDict([('HOSTNAME', 'angledsugar'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/rvs_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/rvs_ws/build/robotvisionsystem_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.601556] (-) TimerEvent: {}
+[0.605363] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.674864] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.684063] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701711] (-) TimerEvent: {}
+[0.766945] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.775585] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.775939] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.776239] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.780322] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801815] (-) TimerEvent: {}
+[0.886567] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.897342] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.897725] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.898308] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.901682] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.901927] (-) TimerEvent: {}
+[1.002249] (-) TimerEvent: {}
+[1.102735] (-) TimerEvent: {}
+[1.126553] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.195722] (robotvisionsystem) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/rvs_ws/build/robotvisionsystem/build', '--no-deps', 'symlink_data'], 'cwd': '/rvs_ws/build/robotvisionsystem', 'env': {'HOSTNAME': 'angledsugar', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/rvs_ws/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/rvs_ws/build/robotvisionsystem', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/rvs_ws/build/robotvisionsystem/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/robotvisionsystem/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}, 'shell': False}
+[1.203002] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/rvs_ws/build/ros_tcp_endpoint/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/rvs_ws/build/ros_tcp_endpoint', 'env': {'HOSTNAME': 'angledsugar', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/rvs_ws/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/rvs_ws/build/ros_tcp_endpoint', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/rvs_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}, 'shell': False}
+[1.204659] (-) TimerEvent: {}
+[1.204933] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/rvs_ws/build/my_package/build', '--no-deps', 'symlink_data'], 'cwd': '/rvs_ws/build/my_package', 'env': {'HOSTNAME': 'angledsugar', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/rvs_ws/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/rvs_ws/build/my_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/rvs_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}, 'shell': False}
+[1.221370] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.263954] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.267952] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.276498] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.304843] (-) TimerEvent: {}
+[1.329273] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.384997] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.402981] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.404933] (-) TimerEvent: {}
+[1.505518] (-) TimerEvent: {}
+[1.511472] (robotvisionsystem) StdoutLine: {'line': b'running develop\n'}
+[1.515466] (ros_tcp_endpoint) StdoutLine: {'line': b'running develop\n'}
+[1.528047] (my_package) StdoutLine: {'line': b'running develop\n'}
+[1.605669] (-) TimerEvent: {}
+[1.646412] (robotvisionsystem) StdoutLine: {'line': b'running egg_info\n'}
+[1.646727] (robotvisionsystem) StdoutLine: {'line': b'creating robotvisionsystem.egg-info\n'}
+[1.646856] (robotvisionsystem) StdoutLine: {'line': b'writing robotvisionsystem.egg-info/PKG-INFO\n'}
+[1.646967] (robotvisionsystem) StdoutLine: {'line': b'writing dependency_links to robotvisionsystem.egg-info/dependency_links.txt\n'}
+[1.647144] (robotvisionsystem) StdoutLine: {'line': b'writing entry points to robotvisionsystem.egg-info/entry_points.txt\n'}
+[1.647263] (robotvisionsystem) StdoutLine: {'line': b'writing requirements to robotvisionsystem.egg-info/requires.txt\n'}
+[1.647506] (robotvisionsystem) StdoutLine: {'line': b'writing top-level names to robotvisionsystem.egg-info/top_level.txt\n'}
+[1.647697] (robotvisionsystem) StdoutLine: {'line': b"writing manifest file 'robotvisionsystem.egg-info/SOURCES.txt'\n"}
+[1.649072] (robotvisionsystem) StdoutLine: {'line': b"reading manifest file 'robotvisionsystem.egg-info/SOURCES.txt'\n"}
+[1.649845] (robotvisionsystem) StdoutLine: {'line': b"writing manifest file 'robotvisionsystem.egg-info/SOURCES.txt'\n"}
+[1.651428] (robotvisionsystem) StdoutLine: {'line': b'running build_ext\n'}
+[1.651708] (robotvisionsystem) StdoutLine: {'line': b'Creating /rvs_ws/install/robotvisionsystem/lib/python3.10/site-packages/robotvisionsystem.egg-link (link to .)\n'}
+[1.652690] (robotvisionsystem) StdoutLine: {'line': b'Installing rvs script to /rvs_ws/install/robotvisionsystem/lib/robotvisionsystem\n'}
+[1.653047] (robotvisionsystem) StdoutLine: {'line': b'\n'}
+[1.653314] (robotvisionsystem) StdoutLine: {'line': b'Installed /rvs_ws/build/robotvisionsystem\n'}
+[1.653450] (robotvisionsystem) StdoutLine: {'line': b'running symlink_data\n'}
+[1.653568] (robotvisionsystem) StdoutLine: {'line': b'creating /rvs_ws/install/robotvisionsystem/share/ament_index\n'}
+[1.653706] (robotvisionsystem) StdoutLine: {'line': b'creating /rvs_ws/install/robotvisionsystem/share/ament_index/resource_index\n'}
+[1.654022] (robotvisionsystem) StdoutLine: {'line': b'creating /rvs_ws/install/robotvisionsystem/share/ament_index/resource_index/packages\n'}
+[1.654166] (robotvisionsystem) StdoutLine: {'line': b'symbolically linking /rvs_ws/build/robotvisionsystem/resource/robotvisionsystem -> /rvs_ws/install/robotvisionsystem/share/ament_index/resource_index/packages\n'}
+[1.654358] (robotvisionsystem) StdoutLine: {'line': b'symbolically linking /rvs_ws/build/robotvisionsystem/package.xml -> /rvs_ws/install/robotvisionsystem/share/robotvisionsystem\n'}
+[1.654495] (robotvisionsystem) StdoutLine: {'line': b'symbolically linking /rvs_ws/build/robotvisionsystem/launch/rvs.launch.py -> /rvs_ws/install/robotvisionsystem/share/robotvisionsystem\n'}
+[1.654617] (robotvisionsystem) StdoutLine: {'line': b'creating /rvs_ws/install/robotvisionsystem/share/robotvisionsystem/configs\n'}
+[1.654771] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[1.654905] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[1.655026] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[1.655137] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[1.655248] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ros_tcp_endpoint.egg-info/requires.txt\n'}
+[1.655356] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[1.656879] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[1.658014] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[1.659819] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_ext\n'}
+[1.660057] (ros_tcp_endpoint) StdoutLine: {'line': b'Creating /rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros-tcp-endpoint.egg-link (link to .)\n'}
+[1.661093] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /rvs_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[1.661420] (ros_tcp_endpoint) StdoutLine: {'line': b'\n'}
+[1.661666] (ros_tcp_endpoint) StdoutLine: {'line': b'Installed /rvs_ws/build/ros_tcp_endpoint\n'}
+[1.661886] (ros_tcp_endpoint) StdoutLine: {'line': b'running symlink_data\n'}
+[1.662011] (ros_tcp_endpoint) StdoutLine: {'line': b'symbolically linking /rvs_ws/build/ros_tcp_endpoint/resource/ros_tcp_endpoint -> /rvs_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[1.662133] (ros_tcp_endpoint) StdoutLine: {'line': b'symbolically linking /rvs_ws/build/ros_tcp_endpoint/package.xml -> /rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint\n'}
+[1.662249] (ros_tcp_endpoint) StdoutLine: {'line': b'symbolically linking /rvs_ws/build/ros_tcp_endpoint/launch/endpoint.py -> /rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[1.667313] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.667729] (my_package) StdoutLine: {'line': b'creating my_package.egg-info\n'}
+[1.667920] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[1.668174] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[1.668420] (my_package) StdoutLine: {'line': b'writing entry points to my_package.egg-info/entry_points.txt\n'}
+[1.668569] (my_package) StdoutLine: {'line': b'writing requirements to my_package.egg-info/requires.txt\n'}
+[1.668708] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[1.668834] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[1.670633] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[1.671289] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[1.673144] (my_package) StdoutLine: {'line': b'running build_ext\n'}
+[1.673437] (my_package) StdoutLine: {'line': b'Creating /rvs_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)\n'}
+[1.674534] (my_package) StdoutLine: {'line': b'Installing my_node script to /rvs_ws/install/my_package/lib/my_package\n'}
+[1.675109] (my_package) StdoutLine: {'line': b'\n'}
+[1.675219] (my_package) StdoutLine: {'line': b'Installed /rvs_ws/build/my_package\n'}
+[1.675280] (my_package) StdoutLine: {'line': b'running symlink_data\n'}
+[1.675335] (my_package) StdoutLine: {'line': b'creating /rvs_ws/install/my_package/share/ament_index\n'}
+[1.675393] (my_package) StdoutLine: {'line': b'creating /rvs_ws/install/my_package/share/ament_index/resource_index\n'}
+[1.675449] (my_package) StdoutLine: {'line': b'creating /rvs_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[1.675503] (my_package) StdoutLine: {'line': b'symbolically linking /rvs_ws/build/my_package/resource/my_package -> /rvs_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[1.675559] (my_package) StdoutLine: {'line': b'symbolically linking /rvs_ws/build/my_package/package.xml -> /rvs_ws/install/my_package/share/my_package\n'}
+[1.690007] (robotvisionsystem) CommandEnded: {'returncode': 0}
+[1.705909] (-) TimerEvent: {}
+[1.714764] (robotvisionsystem) JobEnded: {'identifier': 'robotvisionsystem', 'rc': 0}
+[1.716380] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[1.725350] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[1.727385] (my_package) CommandEnded: {'returncode': 0}
+[1.736751] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.802263] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.805996] (-) TimerEvent: {}
+[1.906260] (-) TimerEvent: {}
+[2.006559] (-) TimerEvent: {}
+[2.015589] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.106748] (-) TimerEvent: {}
+[2.207239] (-) TimerEvent: {}
+[2.307579] (-) TimerEvent: {}
+[2.313806] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.339049] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.340767] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.372580] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.372844] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.372963] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.373066] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.407806] (-) TimerEvent: {}
+[2.414972] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.456423] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.480708] (robotvisionsystem_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.482874] (robotvisionsystem_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.484005] (robotvisionsystem_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.487681] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.507955] (-) TimerEvent: {}
+[2.525355] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.537158] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Build files have been written to: /rvs_ws/build/robotvisionsystem_msgs\n'}
+[2.547344] (robotvisionsystem_msgs) CommandEnded: {'returncode': 0}
+[2.549066] (robotvisionsystem_msgs) JobProgress: {'identifier': 'robotvisionsystem_msgs', 'progress': 'build'}
+[2.549675] (robotvisionsystem_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/rvs_ws/build/robotvisionsystem_msgs', '--', '-j20', '-l20'], 'cwd': '/rvs_ws/build/robotvisionsystem_msgs', 'env': OrderedDict([('HOSTNAME', 'angledsugar'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/rvs_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/rvs_ws/build/robotvisionsystem_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.597213] (robotvisionsystem_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.608069] (-) TimerEvent: {}
+[2.609076] (robotvisionsystem_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.620968] (robotvisionsystem_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_robotvisionsystem_msgs\n'}
+[2.708217] (-) TimerEvent: {}
+[2.808614] (-) TimerEvent: {}
+[2.908991] (robotvisionsystem_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.909243] (-) TimerEvent: {}
+[2.909751] (robotvisionsystem_msgs) StdoutLine: {'line': b'creating robotvisionsystem_msgs.egg-info\n'}
+[2.910109] (robotvisionsystem_msgs) StdoutLine: {'line': b'writing robotvisionsystem_msgs.egg-info/PKG-INFO\n'}
+[2.910290] (robotvisionsystem_msgs) StdoutLine: {'line': b'writing dependency_links to robotvisionsystem_msgs.egg-info/dependency_links.txt\n'}
+[2.910478] (robotvisionsystem_msgs) StdoutLine: {'line': b'writing top-level names to robotvisionsystem_msgs.egg-info/top_level.txt\n'}
+[2.910591] (robotvisionsystem_msgs) StdoutLine: {'line': b"writing manifest file 'robotvisionsystem_msgs.egg-info/SOURCES.txt'\n"}
+[2.912726] (robotvisionsystem_msgs) StdoutLine: {'line': b"reading manifest file 'robotvisionsystem_msgs.egg-info/SOURCES.txt'\n"}
+[2.913336] (robotvisionsystem_msgs) StdoutLine: {'line': b"writing manifest file 'robotvisionsystem_msgs.egg-info/SOURCES.txt'\n"}
+[2.948194] (robotvisionsystem_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_robotvisionsystem_msgs_egg\n'}
+[3.009374] (-) TimerEvent: {}
+[3.041017] (robotvisionsystem_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotvisionsystem_msgs/msg/detail/motor__functions.c.o\x1b[0m\n'}
+[3.041246] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotvisionsystem_msgs/msg/detail/ray__functions.c.o\x1b[0m\n'}
+[3.041318] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotvisionsystem_msgs/msg/detail/state__functions.c.o\x1b[0m\n'}
+[3.067454] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 10%] Built target robotvisionsystem_msgs__cpp\n'}
+[3.080027] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.080589] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.080946] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.109483] (-) TimerEvent: {}
+[3.119020] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library librobotvisionsystem_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.170904] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 19%] Built target robotvisionsystem_msgs__rosidl_generator_c\n'}
+[3.184264] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.186598] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.186810] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.209601] (-) TimerEvent: {}
+[3.309996] (-) TimerEvent: {}
+[3.410390] (-) TimerEvent: {}
+[3.452516] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotvisionsystem_msgs/msg/motor__type_support.cpp.o\x1b[0m\n'}
+[3.452901] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotvisionsystem_msgs/msg/ray__type_support.cpp.o\x1b[0m\n'}
+[3.453045] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotvisionsystem_msgs/msg/state__type_support.cpp.o\x1b[0m\n'}
+[3.492531] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotvisionsystem_msgs/msg/detail/state__type_support.cpp.o\x1b[0m\n'}
+[3.492939] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotvisionsystem_msgs/msg/detail/ray__type_support.cpp.o\x1b[0m\n'}
+[3.493104] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotvisionsystem_msgs/msg/detail/motor__type_support.cpp.o\x1b[0m\n'}
+[3.510522] (-) TimerEvent: {}
+[3.520574] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotvisionsystem_msgs/msg/detail/dds_fastrtps/motor__type_support.cpp.o\x1b[0m\n'}
+[3.525202] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotvisionsystem_msgs/msg/detail/dds_fastrtps/ray__type_support.cpp.o\x1b[0m\n'}
+[3.525545] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotvisionsystem_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o\x1b[0m\n'}
+[3.579537] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotvisionsystem_msgs/msg/motor__type_support.cpp.o\x1b[0m\n'}
+[3.584150] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotvisionsystem_msgs/msg/ray__type_support.cpp.o\x1b[0m\n'}
+[3.584525] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotvisionsystem_msgs/msg/state__type_support.cpp.o\x1b[0m\n'}
+[3.610653] (-) TimerEvent: {}
+[3.649150] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.686313] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotvisionsystem_msgs/msg/detail/ray__type_support.c.o\x1b[0m\n'}
+[3.686723] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotvisionsystem_msgs/msg/detail/motor__type_support.c.o\x1b[0m\n'}
+[3.687067] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotvisionsystem_msgs/msg/detail/state__type_support.c.o\x1b[0m\n'}
+[3.710773] (-) TimerEvent: {}
+[3.734163] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 59%] Built target robotvisionsystem_msgs__rosidl_typesupport_c\n'}
+[3.752933] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotvisionsystem_msgs/msg/detail/ray__type_support_c.cpp.o\x1b[0m\n'}
+[3.753261] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotvisionsystem_msgs/msg/detail/motor__type_support_c.cpp.o\x1b[0m\n'}
+[3.758164] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotvisionsystem_msgs/msg/detail/state__type_support_c.cpp.o\x1b[0m\n'}
+[3.758601] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library librobotvisionsystem_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.810902] (-) TimerEvent: {}
+[3.827082] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 68%] Built target robotvisionsystem_msgs__rosidl_typesupport_introspection_c\n'}
+[3.911054] (-) TimerEvent: {}
+[4.012078] (-) TimerEvent: {}
+[4.112774] (-) TimerEvent: {}
+[4.116486] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.186327] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 70%] Built target robotvisionsystem_msgs__rosidl_typesupport_cpp\n'}
+[4.212904] (-) TimerEvent: {}
+[4.278312] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.278585] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.313074] (-) TimerEvent: {}
+[4.341750] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.379344] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 76%] Built target robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.384806] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 76%] Built target robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.413185] (-) TimerEvent: {}
+[4.441742] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 76%] Built target robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.467910] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 76%] Built target robotvisionsystem_msgs\n'}
+[4.500567] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.513318] (-) TimerEvent: {}
+[4.613728] (-) TimerEvent: {}
+[4.714046] (-) TimerEvent: {}
+[4.814424] (-) TimerEvent: {}
+[4.914816] (-) TimerEvent: {}
+[4.967207] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 78%] Built target robotvisionsystem_msgs__py\n'}
+[4.993195] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotvisionsystem_msgs/msg/_ray_s.c.o\x1b[0m\n'}
+[4.993430] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotvisionsystem_msgs/msg/_state_s.c.o\x1b[0m\n'}
+[4.994910] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotvisionsystem_msgs/msg/_motor_s.c.o\x1b[0m\n'}
+[5.014932] (-) TimerEvent: {}
+[5.115242] (-) TimerEvent: {}
+[5.119917] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robotvisionsystem_msgs/librobotvisionsystem_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.167586] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 87%] Built target robotvisionsystem_msgs__rosidl_generator_py\n'}
+[5.201368] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.201620] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.201757] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.215384] (-) TimerEvent: {}
+[5.316960] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.317224] (-) TimerEvent: {}
+[5.318138] (robotvisionsystem_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.320663] (robotvisionsystem_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.357556] (robotvisionsystem_msgs) StdoutLine: {'line': b'[100%] Built target robotvisionsystem_msgs__rosidl_typesupport_c__pyext\n'}
+[5.359770] (robotvisionsystem_msgs) StdoutLine: {'line': b'[100%] Built target robotvisionsystem_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.362772] (robotvisionsystem_msgs) StdoutLine: {'line': b'[100%] Built target robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.376564] (robotvisionsystem_msgs) CommandEnded: {'returncode': 0}
+[5.377343] (robotvisionsystem_msgs) JobProgress: {'identifier': 'robotvisionsystem_msgs', 'progress': 'install'}
+[5.389534] (robotvisionsystem_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/rvs_ws/build/robotvisionsystem_msgs'], 'cwd': '/rvs_ws/build/robotvisionsystem_msgs', 'env': OrderedDict([('HOSTNAME', 'angledsugar'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/rvs_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/rvs_ws/build/robotvisionsystem_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.398307] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.398864] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.399174] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/ament_index/resource_index/rosidl_interfaces/robotvisionsystem_msgs\n'}
+[5.409063] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__functions.h\n'}
+[5.417440] (-) TimerEvent: {}
+[5.419604] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__struct.h\n'}
+[5.433013] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__type_support.h\n'}
+[5.452322] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__functions.h\n'}
+[5.462928] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__struct.h\n'}
+[5.473653] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__type_support.h\n'}
+[5.484396] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__functions.h\n'}
+[5.494081] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__struct.h\n'}
+[5.503041] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__type_support.h\n'}
+[5.515169] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/motor.h\n'}
+[5.517661] (-) TimerEvent: {}
+[5.527869] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/ray.h\n'}
+[5.538130] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.547847] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/state.h\n'}
+[5.555982] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/library_path.sh\n'}
+[5.568902] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/library_path.dsv\n'}
+[5.580960] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__rosidl_typesupport_fastrtps_c.h\n'}
+[5.590312] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__rosidl_typesupport_fastrtps_c.h\n'}
+[5.600043] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h\n'}
+[5.611038] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.617760] (-) TimerEvent: {}
+[5.620943] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__rosidl_typesupport_introspection_c.h\n'}
+[5.629891] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__rosidl_typesupport_introspection_c.h\n'}
+[5.640162] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h\n'}
+[5.648980] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.659391] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__builder.hpp\n'}
+[5.668222] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__struct.hpp\n'}
+[5.676682] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__traits.hpp\n'}
+[5.688102] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__type_support.hpp\n'}
+[5.697192] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__builder.hpp\n'}
+[5.708232] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__struct.hpp\n'}
+[5.717853] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__traits.hpp\n'}
+[5.718072] (-) TimerEvent: {}
+[5.726961] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__type_support.hpp\n'}
+[5.743733] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__builder.hpp\n'}
+[5.755213] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__struct.hpp\n'}
+[5.766561] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__traits.hpp\n'}
+[5.776239] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__type_support.hpp\n'}
+[5.786878] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/motor.hpp\n'}
+[5.796760] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/ray.hpp\n'}
+[5.807168] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.816961] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/state.hpp\n'}
+[5.818148] (-) TimerEvent: {}
+[5.826192] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.835465] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.844936] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.853532] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.869849] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.879677] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.888299] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.899754] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/pythonpath.sh\n'}
+[5.910492] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/pythonpath.dsv\n'}
+[5.918265] (-) TimerEvent: {}
+[5.919536] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.929110] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.938235] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.950020] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.959611] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/__init__.py\n'}
+[5.970444] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.979681] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.990470] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.000007] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/librobotvisionsystem_msgs__rosidl_generator_py.so\n'}
+[6.010314] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/__init__.py\n'}
+[6.018430] (-) TimerEvent: {}
+[6.029409] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_motor.py\n'}
+[6.053724] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_motor_s.c\n'}
+[6.064449] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_ray.py\n'}
+[6.074698] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_ray_s.c\n'}
+[6.085282] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_state.py\n'}
+[6.095407] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_state_s.c\n'}
+[6.105614] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.115374] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.118546] (-) TimerEvent: {}
+[6.124518] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.133377] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.133780] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.134049] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.134247] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/Motor.idl\n'}
+[6.144785] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/Ray.idl\n'}
+[6.154680] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/State.idl\n'}
+[6.166401] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/Motor.msg\n'}
+[6.175930] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/Ray.msg\n'}
+[6.191753] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/State.msg\n'}
+[6.201112] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/ament_index/resource_index/package_run_dependencies/robotvisionsystem_msgs\n'}
+[6.211489] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/ament_index/resource_index/parent_prefix_path/robotvisionsystem_msgs\n'}
+[6.218775] (-) TimerEvent: {}
+[6.221410] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/ament_prefix_path.sh\n'}
+[6.232332] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/ament_prefix_path.dsv\n'}
+[6.241626] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/path.sh\n'}
+[6.251188] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/path.dsv\n'}
+[6.261923] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/local_setup.bash\n'}
+[6.273037] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/local_setup.sh\n'}
+[6.285154] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/local_setup.zsh\n'}
+[6.298128] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/local_setup.dsv\n'}
+[6.308754] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.dsv\n'}
+[6.317887] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/ament_index/resource_index/packages/robotvisionsystem_msgs\n'}
+[6.318857] (-) TimerEvent: {}
+[6.329449] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.338535] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.352316] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.362632] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.372637] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.383160] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.392818] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.403336] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgsConfig.cmake\n'}
+[6.412253] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgsConfig-version.cmake\n'}
+[6.419049] (-) TimerEvent: {}
+[6.421516] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.xml\n'}
+[6.430225] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_generator_c.so\n'}
+[6.430502] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_generator_c.so" to ""\n'}
+[6.430672] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.430947] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.431096] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.431316] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.431470] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_c.so\n'}
+[6.431698] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.432019] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.432145] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.432306] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.432405] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.432505] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_cpp.so\n'}
+[6.432638] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.476802] (robotvisionsystem_msgs) StdoutLine: {'line': b"Listing '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs'...\n"}
+[6.477019] (robotvisionsystem_msgs) StdoutLine: {'line': b"Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/__init__.py'...\n"}
+[6.477091] (robotvisionsystem_msgs) StdoutLine: {'line': b"Listing '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg'...\n"}
+[6.477148] (robotvisionsystem_msgs) StdoutLine: {'line': b"Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/__init__.py'...\n"}
+[6.477202] (robotvisionsystem_msgs) StdoutLine: {'line': b"Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_motor.py'...\n"}
+[6.477252] (robotvisionsystem_msgs) StdoutLine: {'line': b"Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_ray.py'...\n"}
+[6.477302] (robotvisionsystem_msgs) StdoutLine: {'line': b"Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_state.py'...\n"}
+[6.482443] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_generator_py.so\n'}
+[6.482801] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_generator_py.so" to ""\n'}
+[6.482888] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_cExport.cmake\n'}
+[6.483072] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.483239] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.483335] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.483473] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.483593] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.483737] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.483885] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.484021] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.484168] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.484267] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.484397] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.484533] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.484629] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.484796] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.484901] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.485031] (robotvisionsystem_msgs) StdoutLine: {'line': b'-- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.488288] (robotvisionsystem_msgs) CommandEnded: {'returncode': 0}
+[6.505813] (robotvisionsystem_msgs) JobEnded: {'identifier': 'robotvisionsystem_msgs', 'rc': 0}
+[6.507301] (-) EventReactorShutdown: {}

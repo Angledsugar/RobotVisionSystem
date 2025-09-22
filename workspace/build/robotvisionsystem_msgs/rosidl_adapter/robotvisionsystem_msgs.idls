@@ -1,0 +1,3 @@
+/rvs_ws/build/robotvisionsystem_msgs/rosidl_adapter/robotvisionsystem_msgs:msg/Motor.idl
+/rvs_ws/build/robotvisionsystem_msgs/rosidl_adapter/robotvisionsystem_msgs:msg/Ray.idl
+/rvs_ws/build/robotvisionsystem_msgs/rosidl_adapter/robotvisionsystem_msgs:msg/State.idl

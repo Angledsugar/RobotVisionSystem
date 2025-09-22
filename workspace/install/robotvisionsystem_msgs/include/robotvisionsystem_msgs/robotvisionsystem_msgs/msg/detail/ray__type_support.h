@@ -1,0 +1,1 @@
+/rvs_ws/build/robotvisionsystem_msgs/rosidl_generator_c/robotvisionsystem_msgs/msg/detail/ray__type_support.h

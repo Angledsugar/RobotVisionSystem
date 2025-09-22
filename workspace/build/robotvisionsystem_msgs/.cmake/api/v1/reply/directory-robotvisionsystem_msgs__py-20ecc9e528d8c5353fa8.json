@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robotvisionsystem_msgs__py",
+		"source" : "/rvs_ws/build/robotvisionsystem_msgs/robotvisionsystem_msgs__py"
+	}
+}

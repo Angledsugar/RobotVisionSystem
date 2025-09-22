@@ -1,0 +1,1 @@
+/rvs_ws/build/robotvisionsystem_msgs/rosidl_generator_cpp/robotvisionsystem_msgs/msg/detail/motor__type_support.hpp

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a5f85ab455350c03ec70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robotvisionsystem_msgs__py",
+					"jsonFile" : "directory-robotvisionsystem_msgs__py-20ecc9e528d8c5353fa8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/rvs_ws/build/robotvisionsystem_msgs/robotvisionsystem_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robotvisionsystem_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robotvisionsystem_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robotvisionsystem_msgs_egg-c7d99b5f84c7ebafebe2.json",
+					"name" : "ament_cmake_python_build_robotvisionsystem_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_robotvisionsystem_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_robotvisionsystem_msgs-2fdbaf68b5e8982af29c.json",
+					"name" : "ament_cmake_python_symlink_robotvisionsystem_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs-fd7331db2417c7d6ffbb.json",
+					"name" : "robotvisionsystem_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__cpp-807227c8c3430d74ef87.json",
+					"name" : "robotvisionsystem_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robotvisionsystem_msgs__py::@43a0cff174ac2e70f844",
+					"jsonFile" : "target-robotvisionsystem_msgs__py-ca2846c74e26fbc6cd19.json",
+					"name" : "robotvisionsystem_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_generator_c-53db947d5de1c6e1c020.json",
+					"name" : "robotvisionsystem_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_generator_py-10dbcbbceb04aef69c90.json",
+					"name" : "robotvisionsystem_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_typesupport_c-2f85e1301b69f656b6b7.json",
+					"name" : "robotvisionsystem_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_typesupport_c__pyext-e39788e05cdfdaa368ea.json",
+					"name" : "robotvisionsystem_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_typesupport_cpp-6e261fa14feceaffedc5.json",
+					"name" : "robotvisionsystem_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c-d88a17a4410b8743ef57.json",
+					"name" : "robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c__pyext-cd267c92a7e284a3c2b9.json",
+					"name" : "robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp-7c1a27a573aa2e07edd2.json",
+					"name" : "robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_typesupport_introspection_c-d3bce5b2181feee5c6a3.json",
+					"name" : "robotvisionsystem_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_typesupport_introspection_c__pyext-5fe3dc28ec918a1965eb.json",
+					"name" : "robotvisionsystem_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp-cc60f3beae75c09724a9.json",
+					"name" : "robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotvisionsystem_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotvisionsystem_msgs_uninstall-a45ff187a24ba1f9c74a.json",
+					"name" : "robotvisionsystem_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-565bb93498444ce8ddef.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/rvs_ws/build/robotvisionsystem_msgs",
+		"source" : "/rvs_ws/src/robotvisionsystem_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

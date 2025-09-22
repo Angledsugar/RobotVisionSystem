@@ -1,0 +1,1 @@
+/rvs_ws/build/robotvisionsystem_msgs/ament_cmake_core/robotvisionsystem_msgsConfig-version.cmake

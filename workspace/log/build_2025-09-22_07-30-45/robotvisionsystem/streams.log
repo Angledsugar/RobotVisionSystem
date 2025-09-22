@@ -1,0 +1,26 @@
+[1.187s] Invoking command in '/rvs_ws/build/robotvisionsystem': PYTHONPATH=/rvs_ws/build/robotvisionsystem/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/robotvisionsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/robotvisionsystem/build --no-deps symlink_data
+[1.501s] running develop
+[1.636s] running egg_info
+[1.636s] creating robotvisionsystem.egg-info
+[1.636s] writing robotvisionsystem.egg-info/PKG-INFO
+[1.636s] writing dependency_links to robotvisionsystem.egg-info/dependency_links.txt
+[1.636s] writing entry points to robotvisionsystem.egg-info/entry_points.txt
+[1.636s] writing requirements to robotvisionsystem.egg-info/requires.txt
+[1.637s] writing top-level names to robotvisionsystem.egg-info/top_level.txt
+[1.637s] writing manifest file 'robotvisionsystem.egg-info/SOURCES.txt'
+[1.638s] reading manifest file 'robotvisionsystem.egg-info/SOURCES.txt'
+[1.639s] writing manifest file 'robotvisionsystem.egg-info/SOURCES.txt'
+[1.641s] running build_ext
+[1.641s] Creating /rvs_ws/install/robotvisionsystem/lib/python3.10/site-packages/robotvisionsystem.egg-link (link to .)
+[1.642s] Installing rvs script to /rvs_ws/install/robotvisionsystem/lib/robotvisionsystem
+[1.642s] 
+[1.642s] Installed /rvs_ws/build/robotvisionsystem
+[1.643s] running symlink_data
+[1.643s] creating /rvs_ws/install/robotvisionsystem/share/ament_index
+[1.643s] creating /rvs_ws/install/robotvisionsystem/share/ament_index/resource_index
+[1.643s] creating /rvs_ws/install/robotvisionsystem/share/ament_index/resource_index/packages
+[1.643s] symbolically linking /rvs_ws/build/robotvisionsystem/resource/robotvisionsystem -> /rvs_ws/install/robotvisionsystem/share/ament_index/resource_index/packages
+[1.644s] symbolically linking /rvs_ws/build/robotvisionsystem/package.xml -> /rvs_ws/install/robotvisionsystem/share/robotvisionsystem
+[1.644s] symbolically linking /rvs_ws/build/robotvisionsystem/launch/rvs.launch.py -> /rvs_ws/install/robotvisionsystem/share/robotvisionsystem
+[1.644s] creating /rvs_ws/install/robotvisionsystem/share/robotvisionsystem/configs
+[1.679s] Invoked command in '/rvs_ws/build/robotvisionsystem' returned '0': PYTHONPATH=/rvs_ws/build/robotvisionsystem/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/robotvisionsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/robotvisionsystem/build --no-deps symlink_data

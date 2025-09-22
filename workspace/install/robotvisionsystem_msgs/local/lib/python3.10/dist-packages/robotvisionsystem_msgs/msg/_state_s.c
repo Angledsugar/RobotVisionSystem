@@ -1,0 +1,1 @@
+/rvs_ws/build/robotvisionsystem_msgs/rosidl_generator_py/robotvisionsystem_msgs/msg/_state_s.c

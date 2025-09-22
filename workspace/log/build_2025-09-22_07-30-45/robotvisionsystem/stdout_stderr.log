@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating robotvisionsystem.egg-info
+writing robotvisionsystem.egg-info/PKG-INFO
+writing dependency_links to robotvisionsystem.egg-info/dependency_links.txt
+writing entry points to robotvisionsystem.egg-info/entry_points.txt
+writing requirements to robotvisionsystem.egg-info/requires.txt
+writing top-level names to robotvisionsystem.egg-info/top_level.txt
+writing manifest file 'robotvisionsystem.egg-info/SOURCES.txt'
+reading manifest file 'robotvisionsystem.egg-info/SOURCES.txt'
+writing manifest file 'robotvisionsystem.egg-info/SOURCES.txt'
+running build_ext
+Creating /rvs_ws/install/robotvisionsystem/lib/python3.10/site-packages/robotvisionsystem.egg-link (link to .)
+Installing rvs script to /rvs_ws/install/robotvisionsystem/lib/robotvisionsystem
+
+Installed /rvs_ws/build/robotvisionsystem
+running symlink_data
+creating /rvs_ws/install/robotvisionsystem/share/ament_index
+creating /rvs_ws/install/robotvisionsystem/share/ament_index/resource_index
+creating /rvs_ws/install/robotvisionsystem/share/ament_index/resource_index/packages
+symbolically linking /rvs_ws/build/robotvisionsystem/resource/robotvisionsystem -> /rvs_ws/install/robotvisionsystem/share/ament_index/resource_index/packages
+symbolically linking /rvs_ws/build/robotvisionsystem/package.xml -> /rvs_ws/install/robotvisionsystem/share/robotvisionsystem
+symbolically linking /rvs_ws/build/robotvisionsystem/launch/rvs.launch.py -> /rvs_ws/install/robotvisionsystem/share/robotvisionsystem
+creating /rvs_ws/install/robotvisionsystem/share/robotvisionsystem/configs

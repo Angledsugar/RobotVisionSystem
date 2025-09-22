@@ -1,0 +1,256 @@
+[0.521s] Invoking command in '/rvs_ws/build/robotvisionsystem_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rvs_ws/src/robotvisionsystem_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rvs_ws/install/robotvisionsystem_msgs
+[0.589s] -- The C compiler identification is GNU 11.4.0
+[0.658s] -- The CXX compiler identification is GNU 11.4.0
+[0.667s] -- Detecting C compiler ABI info
+[0.750s] -- Detecting C compiler ABI info - done
+[0.759s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.759s] -- Detecting C compile features
+[0.760s] -- Detecting C compile features - done
+[0.764s] -- Detecting CXX compiler ABI info
+[0.870s] -- Detecting CXX compiler ABI info - done
+[0.881s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.881s] -- Detecting CXX compile features
+[0.882s] -- Detecting CXX compile features - done
+[0.885s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.110s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.205s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.247s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.260s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.368s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.386s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.786s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.322s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.324s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.356s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.356s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.356s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.398s] -- Found PythonExtra: .so  
+[2.440s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.464s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.466s] -- Added test 'lint_cmake' to check CMake code style
+[2.467s] -- Added test 'xmllint' to check XML markup files
+[2.471s] -- Configuring done
+[2.509s] -- Generating done
+[2.521s] -- Build files have been written to: /rvs_ws/build/robotvisionsystem_msgs
+[2.531s] Invoked command in '/rvs_ws/build/robotvisionsystem_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rvs_ws/src/robotvisionsystem_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rvs_ws/install/robotvisionsystem_msgs
+[2.534s] Invoking command in '/rvs_ws/build/robotvisionsystem_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rvs_ws/build/robotvisionsystem_msgs -- -j20 -l20
+[2.581s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.592s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.604s] [  4%] Built target ament_cmake_python_symlink_robotvisionsystem_msgs
+[2.892s] running egg_info
+[2.893s] creating robotvisionsystem_msgs.egg-info
+[2.893s] writing robotvisionsystem_msgs.egg-info/PKG-INFO
+[2.894s] writing dependency_links to robotvisionsystem_msgs.egg-info/dependency_links.txt
+[2.894s] writing top-level names to robotvisionsystem_msgs.egg-info/top_level.txt
+[2.894s] writing manifest file 'robotvisionsystem_msgs.egg-info/SOURCES.txt'
+[2.896s] reading manifest file 'robotvisionsystem_msgs.egg-info/SOURCES.txt'
+[2.897s] writing manifest file 'robotvisionsystem_msgs.egg-info/SOURCES.txt'
+[2.932s] [  4%] Built target ament_cmake_python_build_robotvisionsystem_msgs_egg
+[3.024s] [  6%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotvisionsystem_msgs/msg/detail/motor__functions.c.o[0m
+[3.024s] [ 10%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotvisionsystem_msgs/msg/detail/ray__functions.c.o[0m
+[3.025s] [ 10%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotvisionsystem_msgs/msg/detail/state__functions.c.o[0m
+[3.051s] [ 10%] Built target robotvisionsystem_msgs__cpp
+[3.063s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.064s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.064s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.102s] [ 19%] [32m[1mLinking C shared library librobotvisionsystem_msgs__rosidl_generator_c.so[0m
+[3.154s] [ 19%] Built target robotvisionsystem_msgs__rosidl_generator_c
+[3.168s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.170s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.170s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.436s] [ 29%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotvisionsystem_msgs/msg/motor__type_support.cpp.o[0m
+[3.436s] [ 29%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotvisionsystem_msgs/msg/ray__type_support.cpp.o[0m
+[3.436s] [ 31%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotvisionsystem_msgs/msg/state__type_support.cpp.o[0m
+[3.476s] [ 34%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotvisionsystem_msgs/msg/detail/state__type_support.cpp.o[0m
+[3.476s] [ 36%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotvisionsystem_msgs/msg/detail/ray__type_support.cpp.o[0m
+[3.476s] [ 38%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotvisionsystem_msgs/msg/detail/motor__type_support.cpp.o[0m
+[3.504s] [ 40%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotvisionsystem_msgs/msg/detail/dds_fastrtps/motor__type_support.cpp.o[0m
+[3.509s] [ 44%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotvisionsystem_msgs/msg/detail/dds_fastrtps/ray__type_support.cpp.o[0m
+[3.509s] [ 44%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotvisionsystem_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[3.563s] [ 46%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotvisionsystem_msgs/msg/motor__type_support.cpp.o[0m
+[3.568s] [ 48%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotvisionsystem_msgs/msg/ray__type_support.cpp.o[0m
+[3.568s] [ 51%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotvisionsystem_msgs/msg/state__type_support.cpp.o[0m
+[3.633s] [ 53%] [32m[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_c.so[0m
+[3.670s] [ 57%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotvisionsystem_msgs/msg/detail/ray__type_support.c.o[0m
+[3.670s] [ 57%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotvisionsystem_msgs/msg/detail/motor__type_support.c.o[0m
+[3.670s] [ 59%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotvisionsystem_msgs/msg/detail/state__type_support.c.o[0m
+[3.718s] [ 59%] Built target robotvisionsystem_msgs__rosidl_typesupport_c
+[3.736s] [ 63%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotvisionsystem_msgs/msg/detail/ray__type_support_c.cpp.o[0m
+[3.737s] [ 63%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotvisionsystem_msgs/msg/detail/motor__type_support_c.cpp.o[0m
+[3.742s] [ 65%] [32mBuilding CXX object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotvisionsystem_msgs/msg/detail/state__type_support_c.cpp.o[0m
+[3.742s] [ 68%] [32m[1mLinking C shared library librobotvisionsystem_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.811s] [ 68%] Built target robotvisionsystem_msgs__rosidl_typesupport_introspection_c
+[4.100s] [ 70%] [32m[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_cpp.so[0m
+[4.170s] [ 70%] Built target robotvisionsystem_msgs__rosidl_typesupport_cpp
+[4.262s] [ 74%] [32m[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.262s] [ 74%] [32m[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.325s] [ 76%] [32m[1mLinking CXX shared library librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.363s] [ 76%] Built target robotvisionsystem_msgs__rosidl_typesupport_introspection_cpp
+[4.368s] [ 76%] Built target robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c
+[4.425s] [ 76%] Built target robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp
+[4.451s] [ 76%] Built target robotvisionsystem_msgs
+[4.484s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.951s] [ 78%] Built target robotvisionsystem_msgs__py
+[4.977s] [ 82%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotvisionsystem_msgs/msg/_ray_s.c.o[0m
+[4.977s] [ 82%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotvisionsystem_msgs/msg/_state_s.c.o[0m
+[4.978s] [ 85%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotvisionsystem_msgs/msg/_motor_s.c.o[0m
+[5.103s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/robotvisionsystem_msgs/librobotvisionsystem_msgs__rosidl_generator_py.so[0m
+[5.151s] [ 87%] Built target robotvisionsystem_msgs__rosidl_generator_py
+[5.185s] [ 91%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.185s] [ 91%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.185s] [ 93%] [32mBuilding C object CMakeFiles/robotvisionsystem_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.300s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.302s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.304s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.341s] [100%] Built target robotvisionsystem_msgs__rosidl_typesupport_c__pyext
+[5.343s] [100%] Built target robotvisionsystem_msgs__rosidl_typesupport_introspection_c__pyext
+[5.346s] [100%] Built target robotvisionsystem_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.360s] Invoked command in '/rvs_ws/build/robotvisionsystem_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rvs_ws/build/robotvisionsystem_msgs -- -j20 -l20
+[5.373s] Invoking command in '/rvs_ws/build/robotvisionsystem_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rvs_ws/build/robotvisionsystem_msgs
+[5.382s] -- Install configuration: ""
+[5.382s] -- Execute custom install script
+[5.382s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/ament_index/resource_index/rosidl_interfaces/robotvisionsystem_msgs
+[5.392s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__functions.h
+[5.403s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__struct.h
+[5.416s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__type_support.h
+[5.436s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__functions.h
+[5.446s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__struct.h
+[5.457s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__type_support.h
+[5.468s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__functions.h
+[5.477s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__struct.h
+[5.486s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__type_support.h
+[5.499s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/motor.h
+[5.511s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/ray.h
+[5.521s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.531s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/state.h
+[5.539s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/library_path.sh
+[5.552s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/library_path.dsv
+[5.564s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__rosidl_typesupport_fastrtps_c.h
+[5.574s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__rosidl_typesupport_fastrtps_c.h
+[5.583s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[5.594s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.604s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__rosidl_typesupport_introspection_c.h
+[5.613s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__rosidl_typesupport_introspection_c.h
+[5.624s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[5.632s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.643s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__builder.hpp
+[5.652s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__struct.hpp
+[5.660s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__traits.hpp
+[5.671s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__type_support.hpp
+[5.681s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__builder.hpp
+[5.692s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__struct.hpp
+[5.701s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__traits.hpp
+[5.710s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__type_support.hpp
+[5.727s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__builder.hpp
+[5.739s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__struct.hpp
+[5.750s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__traits.hpp
+[5.760s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__type_support.hpp
+[5.770s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/motor.hpp
+[5.780s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/ray.hpp
+[5.791s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.800s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/state.hpp
+[5.810s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp
+[5.819s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__rosidl_typesupport_fastrtps_cpp.hpp
+[5.828s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.837s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.853s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp
+[5.863s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/ray__rosidl_typesupport_introspection_cpp.hpp
+[5.872s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/include/robotvisionsystem_msgs/robotvisionsystem_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[5.884s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/pythonpath.sh
+[5.894s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/pythonpath.dsv
+[5.903s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.912s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.922s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.933s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.943s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/__init__.py
+[5.954s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_c.c
+[5.963s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.974s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/_robotvisionsystem_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.983s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/librobotvisionsystem_msgs__rosidl_generator_py.so
+[5.994s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/__init__.py
+[6.013s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_motor.py
+[6.037s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_motor_s.c
+[6.048s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_ray.py
+[6.058s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_ray_s.c
+[6.069s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_state.py
+[6.079s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_state_s.c
+[6.089s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.099s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.108s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.117s] -- Up-to-date symlink: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.117s] -- Up-to-date symlink: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.117s] -- Up-to-date symlink: /rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/robotvisionsystem_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.118s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/Motor.idl
+[6.128s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/Ray.idl
+[6.138s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/State.idl
+[6.150s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/Motor.msg
+[6.159s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/Ray.msg
+[6.175s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/msg/State.msg
+[6.184s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/ament_index/resource_index/package_run_dependencies/robotvisionsystem_msgs
+[6.195s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/ament_index/resource_index/parent_prefix_path/robotvisionsystem_msgs
+[6.205s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/ament_prefix_path.sh
+[6.216s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/ament_prefix_path.dsv
+[6.225s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/path.sh
+[6.235s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/environment/path.dsv
+[6.245s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/local_setup.bash
+[6.256s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/local_setup.sh
+[6.269s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/local_setup.zsh
+[6.282s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/local_setup.dsv
+[6.292s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.dsv
+[6.301s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/ament_index/resource_index/packages/robotvisionsystem_msgs
+[6.313s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/rosidl_cmake-extras.cmake
+[6.322s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.336s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.346s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.356s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.367s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.376s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.387s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgsConfig.cmake
+[6.396s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgsConfig-version.cmake
+[6.405s] -- Symlinking: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.xml
+[6.414s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_generator_c.so
+[6.414s] -- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_generator_c.so" to ""
+[6.414s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.so
+[6.414s] -- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.414s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_introspection_c.so
+[6.415s] -- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.415s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_c.so
+[6.415s] -- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_c.so" to ""
+[6.415s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.415s] -- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.416s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.so
+[6.416s] -- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.416s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_cpp.so
+[6.416s] -- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_typesupport_cpp.so" to ""
+[6.460s] Listing '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs'...
+[6.460s] Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/__init__.py'...
+[6.460s] Listing '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg'...
+[6.460s] Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/__init__.py'...
+[6.460s] Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_motor.py'...
+[6.460s] Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_ray.py'...
+[6.461s] Compiling '/rvs_ws/install/robotvisionsystem_msgs/local/lib/python3.10/dist-packages/robotvisionsystem_msgs/msg/_state.py'...
+[6.466s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_generator_py.so
+[6.466s] -- Set runtime path of "/rvs_ws/install/robotvisionsystem_msgs/lib/librobotvisionsystem_msgs__rosidl_generator_py.so" to ""
+[6.466s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_cExport.cmake
+[6.466s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.466s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.467s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.467s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.467s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.467s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_cExport.cmake
+[6.467s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.467s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_cppExport.cmake
+[6.467s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.468s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.468s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.468s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.468s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_cppExport.cmake
+[6.468s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/robotvisionsystem_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.468s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_pyExport.cmake
+[6.468s] -- Installing: /rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/cmake/export_robotvisionsystem_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.472s] Invoked command in '/rvs_ws/build/robotvisionsystem_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rvs_ws/build/robotvisionsystem_msgs

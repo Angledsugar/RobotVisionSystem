@@ -1,0 +1,9 @@
+source;share/robotvisionsystem/hook/pythonpath.ps1
+source;share/robotvisionsystem/hook/pythonpath.dsv
+source;share/robotvisionsystem/hook/pythonpath.sh
+source;share/robotvisionsystem/hook/ament_prefix_path.ps1
+source;share/robotvisionsystem/hook/ament_prefix_path.dsv
+source;share/robotvisionsystem/hook/ament_prefix_path.sh
+source;../../build/robotvisionsystem/share/robotvisionsystem/hook/pythonpath_develop.ps1
+source;../../build/robotvisionsystem/share/robotvisionsystem/hook/pythonpath_develop.dsv
+source;../../build/robotvisionsystem/share/robotvisionsystem/hook/pythonpath_develop.sh

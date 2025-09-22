@@ -1,0 +1,20 @@
+[1.183s] Invoking command in '/rvs_ws/build/ros_tcp_endpoint': PYTHONPATH=/rvs_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/ros_tcp_endpoint/build --no-deps symlink_data --force
+[1.495s] running develop
+[1.634s] running egg_info
+[1.634s] writing ros_tcp_endpoint.egg-info/PKG-INFO
+[1.634s] writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.634s] writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+[1.634s] writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+[1.634s] writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+[1.636s] reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.637s] writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.639s] running build_ext
+[1.639s] Creating /rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros-tcp-endpoint.egg-link (link to .)
+[1.640s] Installing default_server_endpoint script to /rvs_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[1.640s] 
+[1.641s] Installed /rvs_ws/build/ros_tcp_endpoint
+[1.641s] running symlink_data
+[1.641s] symbolically linking /rvs_ws/build/ros_tcp_endpoint/resource/ros_tcp_endpoint -> /rvs_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[1.641s] symbolically linking /rvs_ws/build/ros_tcp_endpoint/package.xml -> /rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[1.641s] symbolically linking /rvs_ws/build/ros_tcp_endpoint/launch/endpoint.py -> /rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[1.696s] Invoked command in '/rvs_ws/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/rvs_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/ros_tcp_endpoint/build --no-deps symlink_data --force

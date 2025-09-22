@@ -1,0 +1,1 @@
+/rvs_ws/build/robotvisionsystem_msgs/ament_cmake_python/robotvisionsystem_msgs/robotvisionsystem_msgs.egg-info/top_level.txt

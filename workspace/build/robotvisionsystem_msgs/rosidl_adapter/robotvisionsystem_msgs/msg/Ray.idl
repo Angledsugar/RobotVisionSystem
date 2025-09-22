@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotvisionsystem_msgs/msg/Ray.msg
+// generated code does not contain a copyright notice
+
+
+module robotvisionsystem_msgs {
+  module msg {
+    typedef float float__12[12];
+    struct Ray {
+      float__12 ray_array;
+    };
+  };
+};

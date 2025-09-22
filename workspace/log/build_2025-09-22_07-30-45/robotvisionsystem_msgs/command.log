@@ -1,0 +1,6 @@
+Invoking command in '/rvs_ws/build/robotvisionsystem_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rvs_ws/src/robotvisionsystem_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rvs_ws/install/robotvisionsystem_msgs
+Invoked command in '/rvs_ws/build/robotvisionsystem_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rvs_ws/src/robotvisionsystem_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rvs_ws/install/robotvisionsystem_msgs
+Invoking command in '/rvs_ws/build/robotvisionsystem_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rvs_ws/build/robotvisionsystem_msgs -- -j20 -l20
+Invoked command in '/rvs_ws/build/robotvisionsystem_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rvs_ws/build/robotvisionsystem_msgs -- -j20 -l20
+Invoking command in '/rvs_ws/build/robotvisionsystem_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rvs_ws/build/robotvisionsystem_msgs
+Invoked command in '/rvs_ws/build/robotvisionsystem_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rvs_ws/build/robotvisionsystem_msgs

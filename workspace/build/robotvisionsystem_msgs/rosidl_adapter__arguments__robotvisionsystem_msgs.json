@@ -1,0 +1,8 @@
+{
+  "package_name": "robotvisionsystem_msgs",
+  "non_idl_tuples": [
+    "/rvs_ws/src/robotvisionsystem_msgs:msg/Motor.msg",
+    "/rvs_ws/src/robotvisionsystem_msgs:msg/Ray.msg",
+    "/rvs_ws/src/robotvisionsystem_msgs:msg/State.msg"
+  ]
+}

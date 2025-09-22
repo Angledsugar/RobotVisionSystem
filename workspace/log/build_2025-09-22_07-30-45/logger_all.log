@@ -1,0 +1,373 @@
+[0.121s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.121s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7818ae907130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7818ae906a70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7818ae906a70>>, mixin_verb=('build',))
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.260s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.260s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.261s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.261s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/rvs_ws'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/ROS-TCP-Endpoint) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotVisionSystem/docs/img) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotvisionsystem' with type 'ros.ament_python' and name 'robotvisionsystem'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem_msgs) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem_msgs) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem_msgs) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem_msgs) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem_msgs) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem_msgs) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem_msgs) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotvisionsystem_msgs) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotvisionsystem_msgs' with type 'ros.ament_cmake' and name 'robotvisionsystem_msgs'
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/rvs_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/rvs_ws/install/my_package', 'merge_install': False, 'path': '/rvs_ws/src/my_package', 'symlink_install': True, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'robotvisionsystem' with the following arguments: {'ament_cmake_args': None, 'build_base': '/rvs_ws/build/robotvisionsystem', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/rvs_ws/install/robotvisionsystem', 'merge_install': False, 'path': '/rvs_ws/src/robotvisionsystem', 'symlink_install': True, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem_msgs' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem_msgs' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'robotvisionsystem_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'robotvisionsystem_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/rvs_ws/build/robotvisionsystem_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/rvs_ws/install/robotvisionsystem_msgs', 'merge_install': False, 'path': '/rvs_ws/src/robotvisionsystem_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/rvs_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/rvs_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/rvs_ws/src/ROS-TCP-Endpoint', 'symlink_install': True, 'test_result_base': None}
+[0.315s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/rvs_ws/src/my_package' with build type 'ament_python'
+[0.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[0.319s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/rvs_ws/src/robotvisionsystem' with build type 'ament_python'
+[0.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotvisionsystem', 'ament_prefix_path')
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/hook/ament_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/hook/ament_prefix_path.dsv'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/hook/ament_prefix_path.sh'
+[0.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/rvs_ws/src/robotvisionsystem_msgs' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/rvs_ws/src/robotvisionsystem_msgs'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/rvs_ws/src/ROS-TCP-Endpoint' with build type 'ament_python'
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.595s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/rvs_ws/src/my_package'
+[0.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.595s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.847s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/rvs_ws/src/robotvisionsystem'
+[0.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/rvs_ws/build/robotvisionsystem_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rvs_ws/src/robotvisionsystem_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rvs_ws/install/robotvisionsystem_msgs
+[1.115s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/rvs_ws/src/ROS-TCP-Endpoint'
+[1.116s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/rvs_ws/build/robotvisionsystem': PYTHONPATH=/rvs_ws/build/robotvisionsystem/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/robotvisionsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/robotvisionsystem/build --no-deps symlink_data
+[1.516s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /rvs_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages/ros_tcp_endpoint
+[1.516s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.xml
+[1.517s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch/endpoint.py
+[1.517s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /rvs_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint/default_server_endpoint
+[1.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/rvs_ws/build/ros_tcp_endpoint': PYTHONPATH=/rvs_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/ros_tcp_endpoint/build --no-deps symlink_data --force
+[1.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/rvs_ws/build/my_package': PYTHONPATH=/rvs_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/my_package/build --no-deps symlink_data
+[2.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotvisionsystem', 'pythonpath_develop')
+[2.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/rvs_ws/build/robotvisionsystem' returned '0': PYTHONPATH=/rvs_ws/build/robotvisionsystem/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/robotvisionsystem/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/robotvisionsystem/build --no-deps symlink_data
+[2.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/build/robotvisionsystem/share/robotvisionsystem/hook/pythonpath_develop.ps1'
+[2.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/build/robotvisionsystem/share/robotvisionsystem/hook/pythonpath_develop.dsv'
+[2.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/build/robotvisionsystem/share/robotvisionsystem/hook/pythonpath_develop.sh'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem' for CMake module files
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem' for CMake config files
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem/lib'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem/lib/pkgconfig/robotvisionsystem.pc'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem/lib/python3.10/site-packages'
+[2.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotvisionsystem', 'pythonpath')
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/hook/pythonpath.ps1'
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/hook/pythonpath.dsv'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/hook/pythonpath.sh'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem/bin'
+[2.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotvisionsystem)
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/package.ps1'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/package.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/package.sh'
+[2.027s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/package.bash'
+[2.029s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem/share/robotvisionsystem/package.zsh'
+[2.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/rvs_ws/install/robotvisionsystem/share/colcon-core/packages/robotvisionsystem)
+[2.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath_develop')
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.ps1'
+[2.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/rvs_ws/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/rvs_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/ros_tcp_endpoint/build --no-deps symlink_data --force
+[2.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.dsv'
+[2.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.sh'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/ros_tcp_endpoint' for CMake module files
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/ros_tcp_endpoint' for CMake config files
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/ros_tcp_endpoint/lib'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/ros_tcp_endpoint/bin'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[2.036s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[2.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/ros_tcp_endpoint/bin'
+[2.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[2.038s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[2.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/rvs_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[2.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath_develop')
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/build/my_package/share/my_package/hook/pythonpath_develop.ps1'
+[2.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/rvs_ws/build/my_package' returned '0': PYTHONPATH=/rvs_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /rvs_ws/build/my_package/build --no-deps symlink_data
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/build/my_package/share/my_package/hook/pythonpath_develop.dsv'
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/build/my_package/share/my_package/hook/pythonpath_develop.sh'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/my_package' for CMake module files
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/my_package' for CMake config files
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/my_package/lib'
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/my_package/bin'
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/my_package/lib/python3.10/site-packages'
+[2.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/my_package/share/my_package/hook/pythonpath.ps1'
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/my_package/share/my_package/hook/pythonpath.dsv'
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/my_package/share/my_package/hook/pythonpath.sh'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/my_package/bin'
+[2.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/my_package/share/my_package/package.ps1'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/rvs_ws/install/my_package/share/my_package/package.dsv'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/my_package/share/my_package/package.sh'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/my_package/share/my_package/package.bash'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/my_package/share/my_package/package.zsh'
+[2.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/rvs_ws/install/my_package/share/colcon-core/packages/my_package)
+[2.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/rvs_ws/build/robotvisionsystem_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /rvs_ws/src/robotvisionsystem_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rvs_ws/install/robotvisionsystem_msgs
+[2.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/rvs_ws/build/robotvisionsystem_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rvs_ws/build/robotvisionsystem_msgs -- -j20 -l20
+[5.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/rvs_ws/build/robotvisionsystem_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /rvs_ws/build/robotvisionsystem_msgs -- -j20 -l20
+[5.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/rvs_ws/build/robotvisionsystem_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rvs_ws/build/robotvisionsystem_msgs
+[6.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotvisionsystem_msgs)
+[6.803s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs' for CMake module files
+[6.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/rvs_ws/build/robotvisionsystem_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /rvs_ws/build/robotvisionsystem_msgs
+[6.805s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs' for CMake config files
+[6.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotvisionsystem_msgs', 'cmake_prefix_path')
+[6.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/cmake_prefix_path.ps1'
+[6.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/cmake_prefix_path.dsv'
+[6.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/cmake_prefix_path.sh'
+[6.808s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/lib'
+[6.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotvisionsystem_msgs', 'ld_library_path_lib')
+[6.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/ld_library_path_lib.ps1'
+[6.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/ld_library_path_lib.dsv'
+[6.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/ld_library_path_lib.sh'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/bin'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/lib/pkgconfig/robotvisionsystem_msgs.pc'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/lib/python3.10/site-packages'
+[6.810s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/bin'
+[6.811s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.ps1'
+[6.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.dsv'
+[6.812s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.sh'
+[6.812s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.bash'
+[6.812s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.zsh'
+[6.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/rvs_ws/install/robotvisionsystem_msgs/share/colcon-core/packages/robotvisionsystem_msgs)
+[6.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotvisionsystem_msgs)
+[6.814s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs' for CMake module files
+[6.814s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs' for CMake config files
+[6.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotvisionsystem_msgs', 'cmake_prefix_path')
+[6.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/cmake_prefix_path.ps1'
+[6.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/cmake_prefix_path.dsv'
+[6.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/cmake_prefix_path.sh'
+[6.816s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/lib'
+[6.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotvisionsystem_msgs', 'ld_library_path_lib')
+[6.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/ld_library_path_lib.ps1'
+[6.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/ld_library_path_lib.dsv'
+[6.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/hook/ld_library_path_lib.sh'
+[6.818s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/bin'
+[6.818s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/lib/pkgconfig/robotvisionsystem_msgs.pc'
+[6.818s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/lib/python3.10/site-packages'
+[6.818s] Level 1:colcon.colcon_core.environment:checking '/rvs_ws/install/robotvisionsystem_msgs/bin'
+[6.819s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.ps1'
+[6.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.dsv'
+[6.820s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.sh'
+[6.820s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.bash'
+[6.821s] INFO:colcon.colcon_core.shell:Creating package script '/rvs_ws/install/robotvisionsystem_msgs/share/robotvisionsystem_msgs/package.zsh'
+[6.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/rvs_ws/install/robotvisionsystem_msgs/share/colcon-core/packages/robotvisionsystem_msgs)
+[6.821s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.822s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.844s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.844s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[6.844s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/rvs_ws/install/local_setup.ps1'
+[6.846s] INFO:colcon.colcon_core.shell:Creating prefix util module '/rvs_ws/install/_local_setup_util_ps1.py'
+[6.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/rvs_ws/install/setup.ps1'
+[6.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/rvs_ws/install/local_setup.sh'
+[6.849s] INFO:colcon.colcon_core.shell:Creating prefix util module '/rvs_ws/install/_local_setup_util_sh.py'
+[6.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/rvs_ws/install/setup.sh'
+[6.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/rvs_ws/install/local_setup.bash'
+[6.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/rvs_ws/install/setup.bash'
+[6.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/rvs_ws/install/local_setup.zsh'
+[6.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/rvs_ws/install/setup.zsh'

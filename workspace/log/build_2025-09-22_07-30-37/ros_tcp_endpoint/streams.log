@@ -1,0 +1,22 @@
+[0.602s] Invoking command in '/rvs_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/rvs_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /rvs_ws/build/ros_tcp_endpoint/build install --record /rvs_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed install_data
+[0.830s] running egg_info
+[0.831s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[0.831s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[0.831s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[0.831s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[0.831s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[0.834s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.834s] adding license file 'LICENSE'
+[0.835s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.835s] running build
+[0.835s] running build_py
+[0.836s] running install
+[0.836s] running install_lib
+[0.839s] running install_data
+[0.839s] running install_egg_info
+[0.841s] removing '/rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)
+[0.841s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[0.842s] running install_scripts
+[0.866s] Installing default_server_endpoint script to /rvs_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[0.866s] writing list of installed files to '/rvs_ws/build/ros_tcp_endpoint/install.log'
+[0.895s] Invoked command in '/rvs_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/rvs_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rvs_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /rvs_ws/build/ros_tcp_endpoint/build install --record /rvs_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed install_data

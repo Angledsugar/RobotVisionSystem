@@ -1,0 +1,15 @@
+services:
+  rvs_ws:
+    image: ghcr.io/chanyeokchoi/rvs-ros2:latest
+    container_name: rvs_ws
+    network_mode: host
+    gpus: all
+    working_dir: /rvs_ws
+    volumes:
+      - ./workspace:/rvs_ws:rw
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    tty: true
+    stdin_open: true

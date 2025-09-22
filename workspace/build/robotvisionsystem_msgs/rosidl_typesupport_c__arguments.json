@@ -1,0 +1,21 @@
+{
+  "package_name": "robotvisionsystem_msgs",
+  "output_dir": "/rvs_ws/build/robotvisionsystem_msgs/rosidl_typesupport_c/robotvisionsystem_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/rvs_ws/build/robotvisionsystem_msgs/rosidl_adapter/robotvisionsystem_msgs:msg/Motor.idl",
+    "/rvs_ws/build/robotvisionsystem_msgs/rosidl_adapter/robotvisionsystem_msgs:msg/Ray.idl",
+    "/rvs_ws/build/robotvisionsystem_msgs/rosidl_adapter/robotvisionsystem_msgs:msg/State.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/rvs_ws/build/robotvisionsystem_msgs/rosidl_adapter/robotvisionsystem_msgs/msg/Motor.idl",
+    "/rvs_ws/build/robotvisionsystem_msgs/rosidl_adapter/robotvisionsystem_msgs/msg/Ray.idl",
+    "/rvs_ws/build/robotvisionsystem_msgs/rosidl_adapter/robotvisionsystem_msgs/msg/State.idl"
+  ]
+}
